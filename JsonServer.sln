@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonServer", "JsonServer.csproj", "{B5F164A5-8F85-4FDD-8669-2603CE8FC655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonServer", "src\JsonServer\JsonServer.csproj", "{B5F164A5-8F85-4FDD-8669-2603CE8FC655}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E8E7C83E-33B7-4276-9E5B-E1AE6D3B584F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5F164A5-8F85-4FDD-8669-2603CE8FC655} = {E8E7C83E-33B7-4276-9E5B-E1AE6D3B584F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B1E26E1-E9B1-444D-8659-FBB06C0EEDF4}
